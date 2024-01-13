@@ -39,6 +39,9 @@ app.get("/*", function (req, res) {
   res.sendFile(path.join(__dirname, "build", "index.html"));
 });
 
+
+
+
 //----------------------------------------------Server
 app.listen(port, function () {
   console.log(`Express app running on port ${port}`);
